@@ -63,3 +63,5 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+android/src/androidTest/java/com/niki/amap/ExampleInstrumentedTest.java
+android/src/test/java/com/niki/amap/ExampleUnitTest.java
