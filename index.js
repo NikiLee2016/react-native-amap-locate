@@ -4,4 +4,4 @@
  */
 
 import AMapLocateClient from './src/AMapLocateClient';
-module.exprots = AMapLocateClient;
+module.exports = AMapLocateClient;
