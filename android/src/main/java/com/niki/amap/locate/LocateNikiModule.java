@@ -64,4 +64,9 @@ public class LocateNikiModule extends ReactContextBaseJavaModule {
         //当前在子线程, 需要转到主线程
         activity.runOnUiThread(() -> LocateNikiClient.getInstance().init(getReactApplicationContext(), activity, locateConfig));
     }
+
+    @ReactMethod
+    public void destroy(){
+        LocateNikiClient.getInstance().destroy();
+    }
 }

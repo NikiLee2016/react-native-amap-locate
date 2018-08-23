@@ -1,6 +1,6 @@
 {
   "name": "react-native-amap-locate",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "android端桥接高德定位SDK, 快速获取当前详细位置信息, 支持持续定位和单次定位两种模式",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/NikiLee2016/react-native-amap-locate/issues"
   },
-  "homepage": "https://github.com/NikiLee2016/react-native-amap-locate#readme"
+  "homepage": "https://github.com/NikiLee2016/react-native-amap-locate#readme",
+  "dependencies": {}
 }

@@ -86,6 +86,10 @@ export default {
         DeviceEventEmitter.removeSubscription(subscription)
     },
 
+    destroy: () => {
+        LocateAMap.destroy();
+    },
+
     getLocationIOS: () => {
 
     }
