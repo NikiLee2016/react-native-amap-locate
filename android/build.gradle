@@ -33,7 +33,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.amap.api:location:latest.integration'
+    compile 'com.amap.api:location:4.2.0'
     implementation 'com.android.support:appcompat-v7:26.1.0'
     compile 'com.facebook.react:react-native:+'
     compile 'com.alibaba:fastjson:1.1.56.android'
