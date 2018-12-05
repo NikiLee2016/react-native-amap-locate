@@ -12,7 +12,8 @@ import {
 
 const isIos = Platform.OS === 'ios';
 const {LocateAMap} = NativeModules;
-const {MODE_ONCE, MODE_CONSTANT, EVENT_NAME_LOCATE_CONSTANT} = LocateAMap;
+// const {MODE_ONCE, MODE_CONSTANT, EVENT_NAME_LOCATE_CONSTANT} = LocateAMap;
+const [MODE_ONCE, MODE_CONSTANT, EVENT_NAME_LOCATE_CONSTANT] = [2, 1, 'event_constant_locate'];
 export default {
 
     LOCATE_MODE_ONCE: MODE_ONCE,
